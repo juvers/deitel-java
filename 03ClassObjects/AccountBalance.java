@@ -13,7 +13,9 @@ public class AccountBalance {
     }
 
     public void setBalance(double balance) {
-        this.balance += balance;
+        if (balance > 0.0) {
+            this.balance += balance;
+        }
     }
 
     public double getBalance() {
