@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-class Addition {
+// example of input/output with scanner
+public class Addition {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int number1;

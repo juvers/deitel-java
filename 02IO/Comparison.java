@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-class Comparison {
+// example of input output with scanner
+public class Comparison {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int number1;
