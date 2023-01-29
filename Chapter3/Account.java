@@ -1,3 +1,5 @@
+package Chapter3;
+
 public class Account {
     // public String name; // instance variable
     private String name;
